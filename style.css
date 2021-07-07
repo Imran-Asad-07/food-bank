@@ -10,19 +10,77 @@ body{
     text-decoration: none;
     padding: 15px;
     color: white;
-    font-size: 10px;
+    font-size: 13px;
 }
 .first-part{
     display: flex;
-    margin-left: 180px;
     margin-top: 60px;
 }
 
 .half-width{
     width: 40%;
+    margin-left: 180px;
+    margin-top: 35px;
 }   
 .half-width img{
     width: 80%;
     height: 80%;
+    margin-left: 20px;
     
+}
+.second-part{
+    display: flex;
+    margin-top: 10px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+
+}
+#person img{
+    height: 70%;
+}
+.text{
+    text-align: center;
+    
+    
+}
+.one-third{
+    width: 25%;
+    margin: 2%;
+    padding: 1%;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+.recipe{
+    display: flex;
+    justify-content: center;
+}
+.one-third img{
+    width: 90%;
+   
+}
+.social-media{
+    display: flex; 
+    justify-content: center ;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+    
+}
+
+.followers{
+    font-weight: 900;
+}
+.s-m{
+    margin-left: 20%;
+    
+}
+footer{
+    background-color: black;
+    height: 150px;
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 30px;
 }
