@@ -1,0 +1,28 @@
+body{
+    font-family: 'Noto Serif', serif;
+}
+.color{
+    color: rgb(218, 85, 32);
+}
+.button{
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 10px;
+}
+.first-part{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.half-width{
+    width: 40%;
+}   
+.half-width img{
+    width: 80%;
+    height: 80%;
+    
+}
